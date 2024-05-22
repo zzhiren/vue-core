@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,R as l}from"./chunks/framework.R3bd3Vqm.js";const A=JSON.parse('{"title":"ref","description":"","frontmatter":{},"headers":[],"relativePath":"reactive/ref.md","filePath":"reactive/ref.md"}'),p={name:"reactive/ref.md"},e=l("",7),o=[e];function t(c,r,i,y,F,d){return a(),n("div",null,o)}const u=s(p,[["render",t]]);export{A as __pageData,u as default};

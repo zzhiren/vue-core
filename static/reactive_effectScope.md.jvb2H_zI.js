@@ -1,1 +1,0 @@
-import{_ as e,o as t,c}from"./chunks/framework.R3bd3Vqm.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"reactive/effectScope.md","filePath":"reactive/effectScope.md"}'),a={name:"reactive/effectScope.md"};function o(r,f,s,n,p,i){return t(),c("div")}const m=e(a,[["render",o]]);export{d as __pageData,m as default};
