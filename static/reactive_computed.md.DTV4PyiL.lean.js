@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.C70okhVW.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"reactive/computed.md","filePath":"reactive/computed.md"}'),c={name:"reactive/computed.md"};function o(r,s,n,p,d,i){return a(),t("div")}const f=e(c,[["render",o]]);export{_ as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.C70okhVW.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"reactive/effect.md","filePath":"reactive/effect.md"}'),c={name:"reactive/effect.md"};function r(o,f,s,n,i,p){return a(),t("div")}const m=e(c,[["render",r]]);export{d as __pageData,m as default};
