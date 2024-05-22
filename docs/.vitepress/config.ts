@@ -18,7 +18,7 @@ export default defineConfig({
   title: 'Vue Core',
   appearance: 'dark',
   srcDir: './src',
-  assetsDir: '/vue-core/static',
+  assetsDir: '../static',
 
   markdown: {
     theme: {
