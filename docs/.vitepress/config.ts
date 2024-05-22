@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 
 const sidebarTitle = '导航'
 export default defineConfig({
-  base: 'vue-core',
+  base: '/vue-core/',
   lang: 'zh',
   vite: {
     server: {
