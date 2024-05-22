@@ -1,0 +1,28 @@
+{
+  "name": "zzhiren",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs --max-old-space-size=50000",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "lint": "eslint --cache .",
+    "lint:fix": "nr lint --fix",
+    "release": "esno scripts/release.ts",
+    "update": "esno scripts/update.ts"
+  },
+  "devDependencies": {
+    "@chenfengyuan/vue-countdown": "^2.1.2",
+    "@types/node": "^20.9.1",
+    "@vueuse/core": "^10.5.0",
+    "flexsearch": "^0.7.31",
+    "markdown-it": "^13.0.2",
+    "vitepress": "^1.0.0-rc.29",
+    "vitepress-plugin-search": "^1.0.4-alpha.20",
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.1.2"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "include": [
+    "packages/pinia/src/global.d.ts",
+    "packages/*/src/**/*.ts",
+    "packages/*/__tests__/**/*.ts"
+  ],
+  "exclude": [
+    "packages/test-vue-2",
+    "packages/pinia/__tests__/test-utils.ts",
+    "packages/pinia/test-dts",
+    "packages/playground",
+    "packages/online-playground",
+    "packages/nuxt"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "dist",
+    "sourceMap": false,
+    "noEmit": true,
+    "paths": {
+      "@pinia/*": [
+        "packages/*/src"
+      ],
+      "pinia": [
+        "packages/pinia/src"
+      ],
+      "@vue/components": ["./docs/.vitepress/theme/components"],
+      "@vue/components/*": ["./docs/.vitepress/theme/components/*"],
+      "@vitepress/components": ["./docs/.vitepress/theme/vitepress.components.ts"]
+    },
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": false,
+    "strict": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "jsx": "preserve",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "types": [
+      "vitest",
+      "node",
+      "vite/client"
+    ]
+  }
+}
