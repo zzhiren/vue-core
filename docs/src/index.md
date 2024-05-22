@@ -1,8 +1,8 @@
 ---
 layout: home
 
-title: ZDocs
-titleTemplate: 前端 and 吉他
+title: Vue Core
+titleTemplate: 学习源码
 
 hero:
   name: Vue Core
