@@ -31,38 +31,38 @@ hero:
 
 features:
   - 
-    # icon:
-    #   src: ./home/vue.svg
+    icon:
+      src: ./home/setup.svg
     title: setup()
     # details: Vue3初级知识、高级进阶、编码实践、源码解析!
     link: './vue/index.md'
   - 
-    # icon:
-    #   src: ./home/vue.svg
+    icon:
+      src: ./home/hexing.svg
     title: 响应式：核心
     # details: Vue3初级知识、高级进阶、编码实践、源码解析!
     link: './reactive/ref.md'
   - 
-    # icon:
-    #   src: ./home/vue.svg
+    icon:
+      src: ./home/gongju.svg
     title: 响应式：工具
     # details: Vue3初级知识、高级进阶、编码实践、源码解析!
     link: './vue/index.md'
   - 
-    # icon:
-    #   src: ./home/vue.svg
+    icon:
+      src: ./home/jinjie.svg
     title: 响应式：进阶
     # details: Vue3初级知识、高级进阶、编码实践、源码解析!
     link: './vue/index.md'
   - 
-    # icon:
-    #   src: ./home/vue.svg
+    icon:
+      src: ./home/shengmingzhouqi.svg
     title: 生命周期钩子
     # details: Vue3初级知识、高级进阶、编码实践、源码解析!
     link: './vue/index.md'
   - 
-    # icon:
-    #   src: ./home/vue.svg
+    icon:
+      src: ./home/yilaizhuru.svg
     title: 依赖注入
     # details: Vue3初级知识、高级进阶、编码实践、源码解析!
     link: './vue/index.md'
