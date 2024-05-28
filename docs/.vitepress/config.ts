@@ -109,6 +109,7 @@ export default defineConfig({
       label: '页面导航'
     },
     lastUpdatedText: '上次更新',
+    darkModeSwitchLabel: '主题',
     search: {
       provider: 'local',
       options: {
