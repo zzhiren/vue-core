@@ -3,11 +3,12 @@ layout: home
 
 title: Vue Core
 titleTemplate: 学习源码
+logo: /vue-core/logo.svg
 
 hero:
   name: Vue Core
   text: Learn Vue Source Code
-  tagline: 
+  tagline: 学源码、树新风
   image:
     src: ./logo.svg
     alt: Vue Core

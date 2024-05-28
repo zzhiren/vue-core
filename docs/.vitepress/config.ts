@@ -22,9 +22,21 @@ export default defineConfig({
   assetsDir: 'static',
 
   markdown: {
+    lineNumbers: true,
     theme: {
+      /**
+       * | 'dracula-soft' | 'github-dark' 
+       * | 'github-light' | 'github-light-default' | 'houston' 
+       * | 'light-plus' 
+       * | 'material-theme-lighter' | 'material-theme-ocean' | 'material-theme-palenight' 
+       * | 'min-light' | 'nord'
+       * | 'one-light'
+       * | | 'snazzy-light' | 'solarized-dark' 
+       * | 'solarized-light' | 'vesper' | 'vitesse-black' 
+       * | 'vitesse-dark' | 'vitesse-light';
+       */
       dark: 'dracula-soft',
-      light: 'vitesse-light',
+      light: 'material-theme-lighter',
     },
 
     attrs: {
@@ -38,9 +50,7 @@ export default defineConfig({
   },
 
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
-
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vue-core/logo.svg' }],
     [
       'meta',
       { name: 'wwads-cn-verify', content: '5878a7ab84fb43402106c575658472fa' },
@@ -191,7 +201,8 @@ export default defineConfig({
         {
           text: '响应式：核心',
           items: [
-            { text: 'ref', link: '/reactive/ref.html' },
+            { text: '全局属性速查', link: '/reactive/index.html' },
+            { text: 'ref', link: '/reactive/ref/index.html' },
             { text: 'reactive', link: '/reactive/reactive.html' },
             { text: 'computed', link: '/reactive/computed.html' },
             { text: 'effect', link: '/reactive/effect.html' },

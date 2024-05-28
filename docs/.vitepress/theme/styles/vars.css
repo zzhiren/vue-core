@@ -28,3 +28,15 @@ html .VPDocAside > .VPDocAsideOutline > .content > .outline-marker {
   width: 4px;
   border-radius: 4px;
 }
+
+:root {
+  --vp-layout-max-width: 1664px;
+}
+
+.VPDoc.has-aside .content-container {
+  max-width: inherit!important;
+}
+
+.VPHero .container .main .text {
+  font-size: 36px;
+}
